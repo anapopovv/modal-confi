@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <main>
+        <section>
+            <button id="openModalBtn"><img src="/confi.png" alt=""></button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="perfil-modal">
+                        <img class="avatar" src="/avatar.jpg" alt="">
+
+                        <div class="infos-perfil-modal">
+                            <div class="infos-perfil-modal-status">
+                                <p>Ana Dev</p>
+                                <div id="statusSelected"></div>
+                            </div>
+                            <p class="user">@devana</p>
+                        </div>
+                    </div>
+
+                    <div class="opt">
+                        <div class="theme-mode">
+                            <p>Configurações de tela</p>
+
+                            <button id="darkModeBtn"><img style="width: 15px;" src="/lua.png" alt=""></button>
+                            <button id="lightModeBtn"><img style="width: 20px;" src="/sol.png" alt=""></button>
+                        </div>   
+                        
+                        <div class="colors-div">
+                            <button class="colorButton" id="blueColorBtn" data-color="#88A7D8"></button>
+                            <button class="colorButton" id="redColorBtn" data-color="#F75357"></button>
+                            <button class="colorButton" id="greenColorBtn" data-color="#00FF00"></button>
+                        </div>
+
+                        <div id="fontButtons">
+                            <button class="fontButton" data-font="Arial" style="font-family: Arial;">Aa</button>
+                            <button class="fontButton" data-font="Georgia" style="font-family: Georgia;">Aa</button>
+                            <button class="fontButton" data-font="'Times New Roman'" style="font-family:
+                            'Times New Roman';">Aa</button>
+                            <button class="fontButton" data-font="'Courier New'" style="font-family:
+                            'Courier New'">Aa</button>
+                            <button class="fontButton" data-font="poppins" style="font-family: poppins;">Aa</button>
+                        </div>
+
+                        <div id="statusIcons">
+                            <button class="statusButton" data-icon="/icon1.png"><img src="/icon1.png" 
+                            alt="Status 1"></button>
+                            <button class="statusButton" data-icon="/icon2.png"><img src="/icon2.png" 
+                            alt="Status 2"></button>
+                            <button class="statusButton" data-icon="/icon3.png"><img src="/icon3.png" 
+                            alt="Status 3"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p id="textToChange">Aqui muda a cor do texto.</p>
+            <button id="buttonToChange">Aqui muda um botão.</button>
+
+        </section>
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>
